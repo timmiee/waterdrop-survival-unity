@@ -1,13 +1,13 @@
-# Library/
-# Temp/
-# Obj/
-# Build/
-# Builds/
-# Logs/
-# UserSettings/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
 
-# MemoryCaptures/
-# [Aa]ssets/AssetStoreTools*
+[Aa]ssets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/

@@ -96,7 +96,11 @@ Assets/
 2. Open Unity Hub
 3. Click "Add" and select the project folder
 4. Open the project (Unity will import packages automatically)
-5. Open `Assets/Scenes/MainGame.unity`
+5. **First Launch**: You'll see an auto-setup dialog - click "Yes" to create all assets
+6. Open `Assets/Scenes/MainGame.unity`
+7. Press Play ▶️
+
+> 📖 **For detailed setup instructions**, see [UNITY_SETUP_README.md](UNITY_SETUP_README.md)
 
 ### Building for Mobile
 
@@ -190,8 +194,8 @@ Edit values in `PlayerStats.cs` inspector:
 3. Add to enemy type selection in `EnemySpawner.cs`
 
 ## 🐛 Known Issues
-- Unity scene files and prefabs need to be created in the Unity Editor
-- Materials need to be assigned to objects in the Inspector
+- **First Launch**: Auto-setup will create all Unity assets automatically
+- Some prefab references may need manual wiring in the Inspector (see UNITY_SETUP_README.md)
 - Audio clips need to be imported and assigned
 
 ## 📄 License
