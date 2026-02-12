@@ -312,7 +312,7 @@ namespace WaterDropSurvival.Editor
             col.radius = 0.1f;
             col.isTrigger = true;
 
-            // Add Projectile script
+            // Add Projectile script (nested class in Gun.cs)
             AddScriptComponent(projectile, "WaterDropSurvival.Weapons.Projectile");
 
             // Save prefab
